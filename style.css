@@ -56,4 +56,18 @@ header.startup h1 {
   border-width: 5px;
   cursor: pointer;
 }
+
+ol {
+  background-position: center;
+  cursor: pointer; 
+  width: 400px; 
+  height: 90px; 
+  border-radius: 50px; 
+  background-color: white;
+  margin-top: 200px;
+  margin-bottom: 30px; 
+  color:red;
+}
+
+
   
