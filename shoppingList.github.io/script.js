@@ -14,7 +14,9 @@ function createListElement() {
 	li.appendChild(document.createTextNode(input.value));
 	li.appendChild(deleteButton);
 	ul.appendChild(li);
-	input.value = ""	
+	input.value = "";
+	lineThrough();
+	clearElement();	
 }
 
 function addListAfterClick() {
@@ -31,6 +33,7 @@ function addListAfterKeypress(event) {
 
 button.addEventListener("click", addListAfterClick);
 input.addEventListener("keypress", addListAfterKeypress);
+
 
 function lineThrough(){	
 	var liCount = document.querySelectorAll("li");
