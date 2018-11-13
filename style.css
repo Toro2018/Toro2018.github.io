@@ -48,24 +48,7 @@ header.startup h1 {
 
 .btn-primary {
   background-color: #F05F44;
-  border-color: #F05F44; }
-
-.badge {
-  text-transform: uppercase;
-  border-radius: 300px; 
-}  
-
-
-.badge-x1{
-  margin-top: 100px;  
-  padding: 1rem 2rem;
-  font-size: 0.9rem;
-}  
-
-.bg{
-  background-color: rgba(255, 255, 255, 0.9);
-  border-radius: 10px;    
-  font-weight: 700;  
+  border-color: #F05F44;   
 }
 
 .btn-primary:hover {
@@ -73,5 +56,33 @@ header.startup h1 {
   border-color: #ee4b08;
   border-width: 3px;
   cursor: pointer;
-}  
+} 
+
+.list-group {
+  width: 33%; 
+  margin: 100px auto;
+  opacity: 0.5;
+}
+
+.list-group:hover{
+   opacity: 1;
+   box-shadow: 2px 4px 10px red;
+}
+
+.list-group a:hover {
+  background-color: #f1f1f1;  
+  color: red; 
+}
+
+.list-group-item-heading {  
+  margin: auto;  
+}
+
+.list-group-item-text {
+  margin: 15px;
+}
+
+
+
+
 

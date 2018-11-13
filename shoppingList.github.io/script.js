@@ -8,15 +8,21 @@ function inputLength() {
 }
 
 function createListElement() {
+
 	var li = document.createElement("li");
 	var deleteButton = document.createElement('Button');
+
 	deleteButton.appendChild(document.createTextNode("delete")); 
+
 	li.appendChild(document.createTextNode(input.value));
 	li.appendChild(deleteButton);
+
 	ul.appendChild(li);
+	
 	input.value = "";
 	lineThrough();
 	clearElement();	
+	
 }
 
 function addListAfterClick() {
